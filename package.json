@@ -1,0 +1,35 @@
+{
+  "name": "qsync-slack",
+  "version": "0.0.1",
+  "description": "A Slack bot for controlling Qmotion blinds through a Qsync device",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfavron/qsync-slack.git"
+  },
+  "keywords": [
+    "qsync",
+    "qmotion",
+    "slack"
+  ],
+  "author": "Stephen Favron (stephenf@stephenfavron.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfavron/qsync-slack/issues"
+  },
+  "homepage": "https://github.com/sfavron/qsync-slack#readme",
+  "dependencies": {
+    "@slack/client": "^3.9.0",
+    "bluebird": "^3.5.0",
+    "qmotion": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
