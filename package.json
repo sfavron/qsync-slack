@@ -23,9 +23,10 @@
   },
   "homepage": "https://github.com/sfavron/qsync-slack#readme",
   "dependencies": {
-    "@slack/client": "^3.9.0",
     "bluebird": "^3.5.0",
-    "qmotion": "^0.1.2"
+    "bunyan": "^1.8.9",
+    "qmotion": "^0.1.2",
+    "slackbots": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
